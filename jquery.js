@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-input", {
-    strings: ["Chirayu Giri", "Web Developer", "UI Designer", "Android Developer"],
+    strings: ["Chirayu Giri", "Mobile App Developer", "Full Stack Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
