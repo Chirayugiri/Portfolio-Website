@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirayu - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/aaf051c631.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="home">
+        <div class="navbar">
+            <!-- <img src="logo.png"> -->
+            <h1><span>C</span>hirayu.</h1>
+            <nav>
+                <ul id="ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="callBlock()"></i>
+            </nav>
+        </div>
+        <div class="home-text">
+            <p id="home-p1">UI/UX Desiner</p>
+            <h1>Hi, I'm <span class="auto-input"></span></h1>
+            <p id="home-p2">This is my oficial portfolio website to showcase my all works related to web<br>development
+                and UI design</p>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <div class="about">
+                <div class="row">
+                    <div class="col1">
+                        <img src="user.png" id="about-img">
+                    </div>
+                    <div class="col2" id="about-col2">
+                        <h1 id="col2-h1">About me</h1>
+                        <p id="col2-p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellat sint
+                            enim a
+                            mollitia. Asperiores dolores laboriosam iste vero. Laboriosam molestiae neque earum
+                            reiciendis, adipisci quae repudiandae saepe veniam dicta.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat voluptates,
+                            at corporis, nisi nam dolorem ea explicabo provident commodi inventore eaque molestiae
+                            excepturi.</p>
+                        <div class="talent">
+                            <span class="skill active">Skills</span>
+                            <span class="hobby">Hobby</span>
+                            <span class="edu">Education</span>
+                        </div>
+                        <div class="info">
+                            <div class="skill-info active2">
+                                <span>UI/UX Design</span>
+                                <p>Designing Web/App interface</p>
+                                <span>Web Development</span>
+                                <p>Websites Creator</p>
+                                <span>Android Development</span>
+                                <p>Building Android apps</p>
+                            </div>
+                            <div class="hobby-info">
+                                <span>Cricket</span> <br>
+                                <p>Playing since Childhood</p>
+                                <span>FootBall</span> <br>
+                                <p>Average Player</p>
+                                <span>Badminton</span> <br>
+                                <p>Good Player</p>
+                            </div>
+                            <div class="edu-info">
+                                <span>2022</span> <br>
+                                <p>3rd year Diploma Student</p>
+                                <span>2022</span> <br>
+                                <p>Internship in GlobReach India</p>
+                                <span>2020</span>
+                                <p>Finished My School</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="services">
+                <h1 id="col2-h1" class="serv-h1">My Services</h1>
+                <div class="row">
+                    <div class="coloum1 serv-col1" id="serv-col1">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iusto, ipsum rem, iste nulla
+                            quia exercitationem sunt molestiae illo laboriosam consequatur.</p>
+                        <a href="">
+                            <p class=".learn-more">Learn more</p>
+                        </a>
+
+                    </div>
+                    <div class="coloum1 serv-col2" id="serv-col2">
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iusto, ipsum rem, iste nulla
+                            quia exercitationem sunt molestiae illo laboriosam consequatur.</p>
+                        <a href="">
+                            <p class=".learn-more">Learn more</p>
+                        </a>
+                    </div>
+                    <div class="coloum1 serv-col3" id="serv-col3">
+                        <i class="fa-brands fa-app-store"></i>
+                        <h3>App Design</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iusto, ipsum rem, iste nulla
+                            quia exercitationem sunt molestiae illo laboriosam consequatur.</p>
+                        <a href="">
+                            <p class=".learn-more">Learn more</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="portfolio">
+                <h1 id="col2-h1" class="serv-h1">My Work</h1>
+                <div class="row">
+                    <div class="colo1">
+                        <div class="colo-img">
+                            <img src="work-1.png">
+                        </div>
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app connects you to the talented people around the world.Download it from <br>play
+                                store.</p>
+                            <div class="external-link">
+                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="colo1">
+                        <div class="colo-img">
+                            <img src="work-2.png">
+                        </div>
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>This Music player app can play any type of music like mp3,mp4a,etc.You can Download this
+                                app from my website</p>
+                            <div class="external-link">
+                                <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="colo1">
+                        <div class="colo-img">
+                            <img src="work-3.png">
+                        </div>
+                        <div class="layer">
+                            <h3>Ecommerce Website</h3>
+                            <p>This is a Ecommerce website for where you can purchase many products such as
+                                shoes,watch,T-shirts,etc.</p>
+                            <a href="https://redstoreshopus.000webhostapp.com/">
+                                <div class="external-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <button id="btn">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="row row2">
+                        <div class="coloumnNum1">
+                            <h1 class="cont-h1">Contact Me</h1>
+                            <span class="cont-span color"><i class="fa-solid fa-paper-plane"></i></span> <span
+                                class="cont-span">chirayugiri149@gmail.com</span>
+                            <br>
+                            <br>
+                            <span class="cont-span color"><i class="fa-solid fa-phone"></i></span> <span
+                                class="cont-span">1234567890</span>
+                            <br>
+                            <br>
+                            <div class="icons">
+                                <a href="https://www.facebook.com/accounts/login/"><i
+                                        class="fa-brands fa-square-facebook"></i></a>
+                                <a href="https://www.twitter.com/accounts/login/"><i
+                                        class="fa-brands fa-square-twitter"></i></a>
+                                <a href="https://www.instagram.com/accounts/login/"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <br><br>
+                            <a href="CV-chirayu.pdf" download="CV-chirayu"><button class="btn">Download CV</button></a>
+
+                        </div>
+
+                        <div class="coloumnNum2">
+
+                            <form action="storeData.php" method="post" onsubmit="showMsg">
+
+                                <input type="email" name="email" placeholder="Your Email" id="email" required> <br>
+                                <input type="password" name="pass" placeholder="Your Password" id="pass" required>
+
+                                <br>
+                                <textarea name="msg" id="msg" cols="26" rows="10" placeholder="Your Message" id="msg"
+                                    required></textarea>
+
+                                <input type="submit" value="submit" id="btn" name="submit">
+
+                                <p id="send" style="display:none;">Message send Succefully</p>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="copy-right">
+        <p>Copyright &copy; 2027 chirayugiri.000webhostapp.com - All rights reserved </p>
+    </div>
+
+    <script>
+
+        function showMsg()
+        {
+            write.style.color="green";
+                        $(document).ready(function(){
+                            $(write).fadeIn("slow");
+                        })
+                        setTimeout(hideMsg,3000);
+                    email.value='';
+                    pass.value='';
+                    msg.value='';
+                    document.getElementById("form").reset();
+        }
+
+        function hideMsg()
+        {
+            $(document).ready(function(){
+                $(write).fadeOut("slow");
+            })
+        }
+
+    </script>
+    
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="jquery.js"></script>
+
+</html>
