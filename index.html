@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" oncontextmenu="return false">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -212,16 +212,16 @@
 
                         <div class="coloumnNum2">
 
-                            <form action="storeData.php" method="post" onsubmit="showMsg">
+                            <form action="storeData.php" method="post">
 
                                 <input type="email" name="email" placeholder="Your Email" id="email" required> <br>
-                                <input type="password" name="pass" placeholder="Your Password" id="pass" required>
+                                <!-- <input type="password" name="pass" placeholder="Your Password" id="pass" required> -->
 
                                 <br>
                                 <textarea name="msg" id="msg" cols="26" rows="10" placeholder="Your Message" id="msg"
                                     required></textarea>
 
-                                <input type="submit" value="submit" id="btn" name="submit">
+                                <input type="submit" value="submit" id="btn" name="submit" onclick="showMsg()">
 
                                 <p id="send" style="display:none;">Message send Succefully</p>
 
