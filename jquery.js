@@ -2,13 +2,8 @@ var typed = new Typed(".auto-input", {
     strings: ["Chirayu Giri", "Mobile App Developer", "Full Stack Developer"],
     typeSpeed: 100,
     backSpeed: 100,
-    loop: true
-})
-
-// var skill=document.getElementsByClassName("skill");
-// var hobby=document.getElementsByClassName("hobby");
-// var edu=document.getElementsByClassName("edu");
-
+    loop: true,
+});
 
 $(document).ready(function(){
     $(".skill").click(function(){
@@ -40,11 +35,10 @@ $(document).ready(function(){
         $(".skill").removeClass("active");
         $(".edu").addClass("active");
     })
-})
+});
 
 
 //code for navbar for small screen devices
-
 
 $(document).ready(function(){
     $(".fa-bars").click(function(){
